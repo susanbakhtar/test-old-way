@@ -1,0 +1,30 @@
+button {
+  border: none;
+  outline: none;
+  font-weight: 600;
+  color: #333;
+}
+
+.log-in {
+  font-weight: 600;
+  color: #333;
+  background-color: transparent;
+}
+
+.sign-up {
+  background-color: #0d0c22;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 1.5rem 2.5rem;
+  border-radius: 50px;
+}
+
+/* media */
+@media (max-width: 600px) {
+  .log-in,
+  .sign-up {
+  }
+}
+
+@media (max-width: 993px) {
+}
