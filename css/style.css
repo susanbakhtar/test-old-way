@@ -345,6 +345,7 @@ nav .baby-3 .buttons {
 }
 
 /* ------ media ------ */
+
 @media (max-width: 1071px) {
   nav {
     grid-template-columns: auto auto 1fr;
