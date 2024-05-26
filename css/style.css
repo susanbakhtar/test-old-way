@@ -84,8 +84,7 @@ nav .baby-3 .buttons {
   text-align: center;
   aspect-ratio: 1 / 0.4;
 
-  /* padding: 10rem 1rem 5rem 1rem; */
-  padding: calc(var(--vw) * 1.2);
+  padding: 10rem 1rem 5rem 1rem;
 }
 
 .section-1 h2 {
@@ -410,9 +409,10 @@ nav .baby-3 .buttons {
   }
   /* section-1 */
   .section-1 {
-    height: 100dvh;
+    height: calc(100dvh - 80px);
     transition: height 2s linear;
     gap: 2.2rem;
+    aspect-ratio: initial;
   }
 
   .section-1 h2 {
